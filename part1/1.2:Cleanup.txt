@@ -1,0 +1,34 @@
+Script started on 2021-09-09 13:38:47+0300
+bash: ./opt/conda/etc/profile.d/conda.sh: No such file or directory
+bash: ./opt/conda/etc/profile.d/conda.sh: No such file or directory
+(base) ]0;linjokin@lx9-fuxi217: ~/Documents/Docker-kurssi/Docker_course/part1[01;32mlinjokin@lx9-fuxi217[00m:[01;34m~/Documents/Docker-kurssi/Docker_course/part1[00m$ docke r ps -as
+CONTAINER ID   IMAGE     COMMAND                  CREATED         STATUS                     PORTS     NAMES                 SIZE
+6b8647e2f967   nginx     "/docker-entrypoint.…"   3 minutes ago   Exited (0) 3 minutes ago             wonderful_feistel     1.09kB (virtual 133MB)
+73638d487de8   nginx     "/docker-entrypoint.…"   3 minutes ago   Exited (0) 2 minutes ago             musing_lamport        1.09kB (virtual 133MB)
+4cb90f53cc22   nginx     "/docker-entrypoint.…"   4 minutes ago   Up 4 minutes               80/tcp    affectionate_colden   1.09kB (virtual 133MB)
+(base) ]0;linjokin@lx9-fuxi217: ~/Documents/Docker-kurssi/Docker_course/part1[01;32mlinjokin@lx9-fuxi217[00m:[01;34m~/Documents/Docker-kurssi/Docker_course/part1[00m$ docke r container stop affectionate_cole[Kden
+affectionate_colden
+(base) ]0;linjokin@lx9-fuxi217: ~/Documents/Docker-kurssi/Docker_course/part1[01;32mlinjokin@lx9-fuxi217[00m:[01;34m~/Documents/Docker-kurssi/Docker_course/part1[00m$ docke r contan[Kiner rm wonderful_d[Kfeistel
+wonderful_feistel
+(base) ]0;linjokin@lx9-fuxi217: ~/Documents/Docker-kurssi/Docker_course/part1[01;32mlinjokin@lx9-fuxi217[00m:[01;34m~/Documents/Docker-kurssi/Docker_course/part1[00m$ dockerr container rm wonderful_feistel[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[Kmusing_lamport
+musing_lamport
+(base) ]0;linjokin@lx9-fuxi217: ~/Documents/Docker-kurssi/Docker_course/part1[01;32mlinjokin@lx9-fuxi217[00m:[01;34m~/Documents/Docker-kurssi/Docker_course/part1[00m$ dockerr container rm musing_lamport[K[K[K[K[K[K[K[K[K[K[K[K[K[Kaffectionate_colden
+affectionate_colden
+(base) ]0;linjokin@lx9-fuxi217: ~/Documents/Docker-kurssi/Docker_course/part1[01;32mlinjokin@lx9-fuxi217[00m:[01;34m~/Documents/Docker-kurssi/Docker_course/part1[00m$ dockerr container rm affectionate_colden[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[5Pmusing_lamportwonderful_feistel[C[C[C[C[C[C[C[C[C[C[C[Cstop affectionate_colden[C[Cps -as[K
+CONTAINER ID   IMAGE     COMMAND   CREATED   STATUS    PORTS     NAMES     SIZE
+(base) ]0;linjokin@lx9-fuxi217: ~/Documents/Docker-kurssi/Docker_course/part1[01;32mlinjokin@lx9-fuxi217[00m:[01;34m~/Documents/Docker-kurssi/Docker_course/part1[00m$ docke r image rm nginx
+Untagged: nginx:latest
+Untagged: nginx@sha256:a05b0cdd4fc1be3b224ba9662ebdf98fe44c09c0c9215b45f84344c12867002e
+Deleted: sha256:822b7ec2aaf2122b8f80f9c7f45ca62ea3379bf33af4e042b67aafbf6eac1941
+Deleted: sha256:47dec9bde9e483e6265a6f52ab1e726724927e2e9d2ac358fdf58fbfcd6cf418
+Deleted: sha256:7920a27f48f198550d59f64681b99441bbc3d2ce4778a855ce1ef9bafc96ae69
+Deleted: sha256:a3c5a94eb1ea071c73dcea1969e0b71beea445d3b9d0735eaf6715d8e351434c
+Deleted: sha256:e73eb58ed241e67a7a2c8589dde85eb72811eac1eb4cf3b586e40d2b9cc9d0c1
+Deleted: sha256:b5d976dc9b0fa380affe1f6a17df18f02ab7debec2d35a0407fb863338591ed7
+Deleted: sha256:d000633a56813933cb0ac5ee3246cf7a4c0205db6290018a169d7cb096581046
+(base) ]0;linjokin@lx9-fuxi217: ~/Documents/Docker-kurssi/Docker_course/part1[01;32mlinjokin@lx9-fuxi217[00m:[01;34m~/Documents/Docker-kurssi/Docker_course/part1[00m$ docke r images
+REPOSITORY   TAG       IMAGE ID   CREATED   SIZE
+(base) ]0;linjokin@lx9-fuxi217: ~/Documents/Docker-kurssi/Docker_course/part1[01;32mlinjokin@lx9-fuxi217[00m:[01;34m~/Documents/Docker-kurssi/Docker_course/part1[00m$ exit
+exit
+
+Script done on 2021-09-09 13:40:42+0300
