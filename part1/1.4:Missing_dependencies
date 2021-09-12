@@ -1,0 +1,1 @@
+ docker run --rm -it --name ex4 ubuntu:16.04 sh -c 'apt-get -qq update && apt-get install -y -qq --no-install-recommends curl; echo "Input website:"; read website; echo "Searching.."; sleep 1; curl http://$website;'

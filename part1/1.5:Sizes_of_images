@@ -1,0 +1,14 @@
+docker run -d -it --name ex51 devopsdockeruh/simple-web-service:alpine
+docker exec -it ex51 tail -f ./text.log
+Secret message is: 'You can find the source code here: https://github.com/docker-hy'
+docker images
+REPOSITORY                          TAG       IMAGE ID       CREATED        SIZE
+ubuntu                              16.04     b6f507652425   10 days ago    135MB
+ubuntu                              latest    fb52e22af1b0   10 days ago    72.8MB
+fav_distro                          bionic    54919e10a95d   10 days ago    63.1MB
+ubuntu                              18.04     54919e10a95d   10 days ago    63.1MB
+devopsdockeruh/simple-web-service   ubuntu    4e3362e907d5   5 months ago   83MB
+devopsdockeruh/simple-web-service   alpine    fd312adc88e0   5 months ago   15.7MB
+
+ubuntu size: 83 MB
+alpine size: 15.7 MB
